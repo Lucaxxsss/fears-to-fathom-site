@@ -220,15 +220,18 @@ nav {
 
 .container-article {
   max-width: 970px;
-  margin: auto;
+  
   display: flex;
   flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 
 }
 
 .container-article img {
-  height: 62%;
-  margin-left: 18.5%;
+  height: 55%;
+  margin-left: 22.8%;
 }
 
 .paragrafo1 {
