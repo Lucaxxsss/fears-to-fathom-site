@@ -119,7 +119,7 @@ background-color: #14223c;
   display: flex;
   flex-wrap: wrap;
   margin: 0px 5px;
-  justify-content: space-between;
+  justify-content: space-evenly;
 }
 
 .item {
