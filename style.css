@@ -201,7 +201,7 @@ background-color: #14223c;
   font-size: 2.6rem;
   color: #f5235c;
   font-family: 'Roboto', sans-serif;
-  padding: 2%;
+  padding: 0%;
 }
 
 .video-home-alone h4 {
@@ -211,18 +211,20 @@ background-color: #14223c;
 }
 
 .video-home-alone {
-
+  position: relative;
   border-radius: 10px;
   width: 100%;
   margin-top: 3%;
   margin-bottom: 3%;
   background-color: #14223c;
-  padding-bottom: 6%;
+
 }
 
 .video-home-alone video {
+  margin-top: 2%;
+  border-radius: 10px;
   background-color: #14223c;
-  position: relative;
+  position: absolute;
   left: 50%;
   transform: translate(-50%);
   width: 1280px;
@@ -269,10 +271,10 @@ border-radius: 0px;
 .paragrafo1 {
   color: white;
   font-family: 'Nunito', sans-serif;
-  font-size: 1.0rem;
+  font-size: .9rem;
   line-height: 1.3em;
   text-align: justify;
-  margin: 0%;
+  margin: 1% 1%;
 }
 
 .title-epsode1 {
@@ -336,6 +338,10 @@ border-radius: 0px;
 
   .images-homealone img {
     width: 150px;
+  }
+
+  .video-home-alone {
+    border-radius: 0px;
   }
 
   .video-home-alone video{
