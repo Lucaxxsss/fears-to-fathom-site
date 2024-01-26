@@ -159,13 +159,13 @@ background-color: #14223c;
   font-family: 'Roboto', sans-serif;
   font-size: 1.5rem;
   text-align: center;
-  margin: 5% 0%;
+  margin: 3% 0%;
 }
 
 .image-homealone {
   margin: auto;
   max-width: 1920px;
-  height: 600px;
+  height: 650px;
 
   background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1671340/capsule_616x353.jpg?t=1697813765://img.itch.zone/aW1nLzY0MjQxNDQucG5n/original/MQorLh.png);
   background-size: cover;
