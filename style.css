@@ -3,6 +3,17 @@
 
   @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
 
+
+  @font-face {
+    font-family: 'fears';
+    src: url(fonts/VCR_OSD_MONO_1.001.ttf);
+  }
+
+  @font-face {
+    font-family: 'fathom';
+    src: url(fonts/theboldfont.ttf);
+  }
+
   html {
     scroll-behavior: smooth;
     scroll-padding: 5rem;
@@ -38,7 +49,7 @@ body {
 
 nav {
   margin: 1%;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'fathom', sans-serif;
   margin-bottom: 5%;
 }
 
@@ -50,8 +61,8 @@ nav a:hover {
 nav a, li{
   text-decoration: none;
   list-style: none;
-  font-weight: 900;
-  color: white;
+  font-weight: 800;
+  color: rgb(222, 221, 221);
   font-size: 1.6rem;
 }
 
@@ -63,7 +74,7 @@ nav a, li{
 .navegation {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
 align-items: center;
 padding: 5px;
 }
@@ -100,9 +111,9 @@ padding: 5px;
 background-color: #14223c;
 
   text-align: center;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
   color: white;
-  font-family: 'Roboto', sans-serif;
+  font-family: 'fears', sans-serif;
   font-weight: 900;
   padding-top: 1%;
 }
